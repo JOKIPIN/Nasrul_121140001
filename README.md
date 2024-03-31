@@ -1,52 +1,80 @@
-Nama : Nasrul Alfin Prassetyo
-Nim : 121140001
+# Nasrul Alfin Prassetyo-121140001
 
+## Apiservice.kt
 
-1.Splash Screen
-activity_splash_screen.xml
-SplashScreenActivity.kt
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/594255d0-fe1c-446a-af27-ba86a89778ee)
-Tampilan ketika dijalankan :
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/9c490202-d3e6-483c-823f-cf7c3558a9f3)
-Tampilan akan menampilkan gambar seperti diatas selama 3 detik
+File ini berisi implementasi layanan API untuk mendapatkan detail pengguna.
 
-2.Halaman Login 
-Activity_login.xml
-LoginActivity.kt
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/2a8c2b11-cd43-4399-b035-d5470066d2fd)
+## README.md
 
-Ketentuan :
-Username : Admin
-Pasword : PAM2024
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/8bc1b369-3b55-4132-a0ab-ea96d594583a)
+### Splash Screen
 
+#### Files:
+- `activity_splash_screen.xml`
+- `SplashScreenActivity.kt`
 
-3.Registrasi 
-Activity_register.xml
-RegisterActivity.kt
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/673ce31b-5c64-4f9e-9e2e-ad76fe85f44c)
+#### Deskripsi:
+Tampilan splash screen akan menampilkan gambar seperti yang dijelaskan di bawah ini selama 3 detik:
 
-Ketentuan:
-nama pengguna aplikasi, kata sandi, nama pengguna GitHub, nim, dan email
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/e84aff53-cc86-4457-aba0-c3b54b21b867)
+![Splash Screen](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/blob/main/assets/96344530/594255d0-fe1c-446a-af27-ba86a89778ee.png)
+  
+### Halaman Login
 
+#### Files:
+- `activity_login.xml`
+- `LoginActivity.kt`
 
-4.Beranda
-Fragment_home.xml
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/c26501d3-8705-45ba-9194-093560584d93)
+#### Deskripsi:
+Pengguna dapat masuk dengan kredensial berikut:
+- Username: Admin
+- Kata sandi: PAM2024
 
-5.Profil 
-Fragmen_dashoard.xml
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/8753eef7-6b3e-4453-adca-38b3e6c79ded)
+Tampilan halaman login adalah sebagai berikut:
 
-Ketentuan : 
-foto dalam bentuk huruf pertama dari nama pengguna , nama pengguna, nama pengguna GitHub, dan Email
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/b2669f2f-4dc2-459d-89d6-51c84947f621)
+![Halaman Login](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/blob/main/assets/96344530/2a8c2b11-cd43-4399-b035-d5470066d2fd.png)
 
-6.Motion Layout 
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/966b9075-3f53-49d8-a701-282b5c2121c7)
+### Registrasi
 
-7.Detail Pengguna
-Apiservice.kt
- ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/d95ed8cb-b246-45ec-b17d-9bc3a71c0007)
+#### Files:
+- `activity_register.xml`
+- `RegisterActivity.kt`
+
+#### Deskripsi:
+Pengguna dapat mendaftar dengan mengisi formulir registrasi yang membutuhkan informasi seperti nama pengguna aplikasi, kata sandi, nama pengguna GitHub, NIM, dan email.
+
+Tampilan formulir registrasi adalah sebagai berikut:
+
+![Registrasi](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/blob/main/assets/96344530/673ce31b-5c64-4f9e-9e2e-ad76fe85f44c.png)
+
+### Beranda
+
+#### Files:
+- `fragment_home.xml`
+
+#### Deskripsi:
+Fragment ini mewakili halaman utama. Tampilannya seperti di bawah ini:
+
+![Beranda](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/blob/main/assets/96344530/c26501d3-8705-45ba-9194-093560584d93.png)
+
+### Profil
+
+#### Files:
+- `fragment_dashboard.xml`
+
+#### Deskripsi:
+Fragment ini mewakili profil pengguna, menampilkan foto profil, nama pengguna, nama pengguna GitHub, dan email. Contohnya seperti di bawah ini:
+
+![Profil](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/blob/main/assets/96344530/8753eef7-6b3e-4453-adca-38b3e6c79ded.png)
+
+### Motion Layout
+
+#### Deskripsi:
+Implementasi motion layout untuk transisi UI dinamis.
+
+### Detail Pengguna
+
+#### Files:
+- `Apiservice.kt`
+
+#### Deskripsi:
+File ini berisi implementasi layanan API untuk mendapatkan detail pengguna.
 
