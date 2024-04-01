@@ -31,10 +31,13 @@
 
 ## 4.Beranda
 - Fragment_home.xml
+- dasboardfragment.kt
+- dasboardviewmodel.kt
  ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/c26501d3-8705-45ba-9194-093560584d93)
 
 ## 5.Profil 
-- Fragmen_dashoard.xml
+- uaerrepository.kt
+- usermodel.kt 
  ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/8753eef7-6b3e-4453-adca-38b3e6c79ded)
 
 ### Ketentuan : 
@@ -46,4 +49,6 @@
 
 ## 7.Detail Pengguna
 - Apiservice.kt
+- Userrepository.kt
+- usermodel.kt 
  ![image](https://github.com/JOKIPIN/Nasrul_121140001_pengembangan-aplikasi-mobile/assets/96344530/d95ed8cb-b246-45ec-b17d-9bc3a71c0007)
